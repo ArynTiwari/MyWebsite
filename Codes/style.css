@@ -36,14 +36,17 @@ ul {
     background: var(--bg-black-900);
     min-height: 100vh;
     display: block;
-    position: fixed;
-    left: 270px;
-    top: 0;
-    right: 0;
-    z-index: 0;
     opacity: 1;
     padding: 0 30px;
 
+}
+.hidden
+{
+    display: none !important;
+}
+.main-content
+{
+    padding-left: 270px;
 }
 .padd15
 {
@@ -56,6 +59,43 @@ ul {
     width: 100%;
     margin: auto;
 }
+.section .container
+{
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+.section-title
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.section-title h2
+{
+    font-size: 40px;
+    color: var(--text-black-900);
+    font-weight: 700;
+    position: relative;
+}
+.section-title h2::before
+{
+    content: '';
+    background-color: var(--skin-color);
+    height: 4px;
+    width: 50px;
+    position: absolute;
+    top: 100%;
+    left:0;
+}
+.section-title h2::after
+{
+    content: '';
+    background-color: var(--skin-color);
+    height: 4px;
+    width: 50px;
+    position: absolute;
+    bottom: 94%;
+    right:81%;
+}
 .row
 {
     display: flex;
@@ -66,7 +106,7 @@ ul {
 }
 .btn
 {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 500;
     padding: 5px 5px;
     color: white;
@@ -116,7 +156,7 @@ ul {
 
 .aside .logo a span {
     font-family: 'Clicker Script', cursive;
-    font-family: 40px;
+    font-size: 40px;
 }
 
 .aside .logo a::before {
@@ -258,7 +298,33 @@ h3.my-profession
     text-align: center;
     position: relative;
 }
+.home-img::after
+{
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-bottom: 10px solid var(--skin-color);
+    border-right: 10px solid var(--skin-color);
+    right: -27px;
+    bottom: -37px;
+
+}
+.home-img::before
+{
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-top: 10px solid var(--skin-color);
+    border-left: 10px solid var(--skin-color);
+    left: -25px;
+    top: -37px;
+
+}
 .home .home-img img{
-    height: 350px;
-    width: 420px;
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    margin: auto;
 }
