@@ -367,6 +367,10 @@ h3.my-profession {
     border-radius: 10px;
     margin: auto;
 }
+.home .home-img :hover .
+{
+    left: 45%;
+}
 
 /*ABOUT SECTION*/
 .about .about-content {
