@@ -640,3 +640,14 @@ h3.my-profession {
     width: 100%;
     display: block;
 }
+/*===Contact===*/
+.contact-title{
+    color: var(--skin-color);
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.contact-subtitle{
+    color: var(--skin-color);
+    font-size: 15px;
+    
+}
