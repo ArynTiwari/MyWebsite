@@ -367,7 +367,7 @@ h3.my-profession {
     border-radius: 10px;
     margin: auto;
 }
-.home .home-img :hover .
+.home .home-img :hover 
 {
     left: 45%;
 }
@@ -646,12 +646,21 @@ h3.my-profession {
 }
 /*===Contact===*/
 .contact-title{
-    color: var(--skin-color);
+    color: var(--text-black-900);
     font-size: 20px;
     margin-bottom: 20px;
 }
 .contact-subtitle{
-    color: var(--skin-color);
+    color: var(--text-black-900);
     font-size: 15px;
+    margin-bottom:60px;
     
+}
+.contact-info-item{
+    flex: 0 0 25%;
+    max-width: 25%;
+    text-align: center;
+}
+.contact .contact-info-item .icon{
+    display: inline-block;
 }
